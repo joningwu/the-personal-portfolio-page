@@ -1,0 +1,191 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+	width: 100vw;
+	position: fixed;
+	background-color: hsl(345, 22%, 37%);
+}
+
+ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+ul:last-child {
+	margin-right: 30px;
+}
+
+ul li {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: hsl(15, 42%, 92%);
+	padding: 15px;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+ul li:hover {
+	color: hsl(199, 38%, 22%);
+	background-color: #94b5c0;
+}
+
+#welcome-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 70px;
+	height: 100vh;
+	background-color: hsl(15, 42%, 92%);
+	color: hsl(199, 38%, 22%);
+}
+
+#welcome-section div {
+	padding-right: 15vw;
+	padding-left: 15vw;
+}
+
+#welcome-section h1 {
+	font-size: 4rem;
+	font-family: 'Caveat', cursive;
+}
+
+#welcome-section p {
+	font-size: 1.5rem;
+	margin-top: 15px;
+}
+
+h2 {
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-size: 2.5rem;
+	color: hsl(199, 38%, 22%);
+}
+
+#about {
+	padding-top: 40px;
+	height: 100vh;
+}
+
+#about p {
+	font-size: 1.2rem;
+	color: 	hsl(199, 38%, 22%);
+	text-align: left;
+	padding: 50px 10% 0 10%;
+	line-height: 1.5;
+	text-indent: 50px;
+}
+
+#projects {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: hsl(15, 42%, 92%);
+}
+
+.project-tile {
+	background-color: white;
+	margin: 40px;
+	width: 332px;
+	height: 272px;
+	display: inline-block;
+	border: 1px solid hsl(345, 22%, 37%);
+	box-shadow: 5px 6px 5px hsl(345, 22%, 40%);;
+}
+
+img {
+	width: 330px;
+	height: 200px;
+}
+
+.project-tile a {
+	text-decoration: none;
+}
+
+.project-tile p {
+	font-size: 1.2rem;
+	color: hsl(15, 42%, 92%);
+	background-color: hsl(345, 22%, 37%);
+	padding: 12px 0 12px 0;
+	margin-top: 20px;
+}
+
+.project-tile p:hover {
+	font-size: 1.3rem;
+	padding: 11px 0 11px 0;
+	color: gold;
+}
+
+#skills {
+	padding-top: 40px;
+}
+
+.logo-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	margin: 5% 10% 5% 10%;
+}
+
+.jquery-logo {
+	width: 320px;
+	height: 100px;
+	margin: 5% 10% 10% 10%;
+}
+
+#contact {
+	font-weight: 600;
+	background-color:  hsl(15, 42%, 92%);
+}
+
+#contact h2 {
+	padding-top: 30px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: hsl(199, 38%, 22%);
+}
+
+.info-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.info-container div {
+	width: 110px;
+	display: flex;
+}
+
+.info-container div a {
+	align-self: center;
+}
+
+.info-logo {
+	width: 30px;
+	height: 30px;	
+	padding-right: 3px;
+}
+
+
+@media (min-width: 1260px) {
+	 .project-tile {
+			margin-left: 10%;
+			margin-right: 10%;
+	}
+}
